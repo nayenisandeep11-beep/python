@@ -1,0 +1,12 @@
+class abc:
+    msg="GOOD MRNG"
+    def set_dim(self,a,b):
+        self.tot=a+b
+        def display(self):
+            prit("the sum is",self.tot)
+            print(abc.msg)
+a=abc()
+b=abc()
+a.set_dim(55,44)
+b.set_dim(25,24)
+a.display()
